@@ -1,6 +1,8 @@
 # Autonomous Multi-Modal 8-Node Resonance Framework
 
 An advanced, closed-loop framework for precision target activation using an **8-node phased acoustic transducer array** integrated with an **alternating electromagnetic (EM) induction loop**. This repository contains the core architectural theory and a physics simulation verifying target-locked vehicle fracturing against structural boundaries.
+
+---
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21530493.svg)](https://doi.org/10.5281/zenodo.21530493)
 ![Status](https://img.shields.io/badge/Status-Research_POC-orange)
 ![Type](https://img.shields.io/badge/Type-Simulation_Model-blue)
