@@ -1,7 +1,6 @@
 # Autonomous Multi-Modal 8-Node Resonance Framework
 
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21530493.svg)](https://doi.org/10.5281/zenodo.21530493) 
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21530493-blue?style=for-the-badge&logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.21530493) 
 ![Status](https://img.shields.io/badge/Status-Research_POC-orange) ![Type](https://img.shields.io/badge/Type-Simulation_Model-blue)
 
 ---
@@ -19,15 +18,15 @@ $$I_{\text{focus}} = N^2 \cdot I_{\text{node}}$$
 
 ### 1.2 Autonomous Decision Matrix
 The system utilizes an interleaved pulse-echo control loop to map acoustic impedance boundaries in real time. When an anatomical obstruction (like a bone interface) is identified, the engine executes a modality handoff to an EM induction loop, rendering the boundary completely transparent.
-
+```
 [ Diagnostic Pulse ] ──> Detects Bone Interface (High Reflection)
-│
-▼
+                                  │
+                                  ▼
 [ Decision Engine  ] ──> Calculates Penalty Matrix & Aborts Sonic Mode
-│
-▼
+                                  │
+                                  ▼
 [ Modality Handoff ] ──> Activates EM Induction Loop (0% Reflection)
-
+```
 ---
 
 ## 2. Solid-State Transport Mechanics
@@ -59,7 +58,7 @@ The included `simulation.py` script maps internal vehicle stress along the tissu
 ### Execution
 ```bash
 python simulation.py
-
+```
 # Important Notice
 
 This repository contains code published for demonstration and testing purposes only. 
